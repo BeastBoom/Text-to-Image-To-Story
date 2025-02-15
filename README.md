@@ -45,19 +45,7 @@ COPY THE SHOWN IP ADDRESS
 Running the Application
 -----------------------
 
-1.  **Start the App and Expose It Publicly:**
-
-    Run the following command in your terminal:
-
-    `streamlit run app.py & npx localtunnel --port 8501`
-
-    After executing this command, LocalTunnel will display a public URL. Click on the link provided to access the web interface of your AI agent.
-
-2. **Paste the IP Address in the prompt opened**
-![image](https://github.com/user-attachments/assets/fa2faaca-2460-4c94-9674-d39cc5473ed7)
-
-
-3.  **Configure Your Hugging Face API Token:**
+1.  **Configure Your Hugging Face API Token:**
 
     In the `app.py` file, locate the following line:
     
@@ -66,6 +54,18 @@ Running the Application
     Replace `True` with your actual Hugging Face API token as a string. For example:
     ```bash
     sd_pipeline = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16, revision="fp16", use_auth_token="YOUR_HF_API_TOKEN")
+
+2. **Paste the IP Address in the prompt opened**
+![image](https://github.com/user-attachments/assets/fa2faaca-2460-4c94-9674-d39cc5473ed7)
+
+
+3.  **Start the App and Expose It Publicly:**
+
+    Run the following command in your terminal:
+
+    `streamlit run app.py & npx localtunnel --port 8501`
+
+    After executing this command, LocalTunnel will display a public URL. Click on the link provided to access the web interface of your AI agent.
 
 Running in Google Colab
 -----------------------
