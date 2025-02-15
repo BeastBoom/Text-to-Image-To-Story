@@ -103,7 +103,7 @@ If you prefer to run the project in Google Colab, follow these steps:
 
   Copy the displayed IP address.
 
-5. **Change the Runtime**
+5.  **Change the Runtime:**
     In the menu shown above, navigate to Runtime -> Change Runtime Type -> Select T4 Gpu for better rendering
 
 6.  **Run the App and Expose It Publicly:**
