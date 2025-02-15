@@ -13,7 +13,7 @@ os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 
 # Load Stable Diffusion model
 model_id = "CompVis/stable-diffusion-v1-4"
-sd_pipeline = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16, revision="fp16",use_auth_token="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")
+sd_pipeline = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16, revision="fp16",use_auth_token=True) #ENTER YOUR API TOKEN FROM HUGGING FACE HERE INSTEAD OF TRUE
 
 # Enable memory-efficient attention slicing
 sd_pipeline.enable_attention_slicing()
