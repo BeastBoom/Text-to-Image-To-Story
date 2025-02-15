@@ -1,0 +1,7 @@
+pyngrok
+diffusers
+transformers
+gTTS
+torch
+streamlit
+Pillow
