@@ -40,6 +40,7 @@ The AI Story and Image Generator is an interactive AI agent that transforms your
 
    ```bash
    wget -q -O - ipv4.icanhazip.com
+COPY THE SHOWN IP ADDRESS
 
 Running the Application
 -----------------------
@@ -52,7 +53,11 @@ Running the Application
 
     After executing this command, LocalTunnel will display a public URL. Click on the link provided to access the web interface of your AI agent.
 
-2.  **Configure Your Hugging Face API Token:**
+2. **Paste the IP Address in the prompt opened**
+![image](https://github.com/user-attachments/assets/fa2faaca-2460-4c94-9674-d39cc5473ed7)
+
+
+3.  **Configure Your Hugging Face API Token:**
 
     In the `app.py` file, locate the following line:
     
